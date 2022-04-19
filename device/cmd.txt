@@ -1,0 +1,5 @@
+
+
+aoc -march=emulator -legacy-emulator -v -board=a10gx srrc_top.cl -o ../bin/srrc_em.aocx 
+
+aoc -v -board=a10gx srrc_top.cl -report -o ../bin/srrc.aocx 
